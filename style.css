@@ -1,0 +1,81 @@
+
+body{
+    background-color: #fcfcfc;
+}
+
+/* header style starts */
+.influen{
+    padding-left: 120px;
+    padding-top: 60px;
+}
+
+/* header style ends */
+
+
+/* main nav style starts */
+
+.nav{
+    display:flex;
+    
+    
+    
+    
+    
+}
+
+.nav-bar{
+    width: 582px;
+    height:270px;
+    margin-right: 120px;
+    padding-top: 210px;
+    padding-left: 120px;
+}
+
+ .nav-bar .btn{
+    width: 190px;
+    height: 44px;
+    background-color: #E02C6D;
+    color:white;
+    border:1px solid white;
+    border-radius: 40px;
+} 
+
+.btn span{
+    padding-right: 15px;
+}
+
+
+.camera{
+    Width: 440px;
+    height: 414px;
+    padding-top: 120px;
+    padding-right: 120px;
+
+
+}
+
+/* main nav style ends */
+
+.popular{
+    text-align: center;
+}
+
+
+/* menu ends */
+
+
+.all-collection{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    /* padding:30px 150px 30px 150px; */
+}
+
+
+.collection{
+    background-color:rgb(255, 255, 255);
+width:330px;
+height: 475px;
+padding:30px;
+
+
+}
