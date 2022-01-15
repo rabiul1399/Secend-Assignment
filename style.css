@@ -136,6 +136,21 @@ height: 475px;
 }
 /* menu ends */
 
+/* aside startss */
+
+.products{
+    padding-left: 150px;
+    padding-bottom: 50px;
+}
+
+
+.products img{
+    font-size: 400px;
+}
+.products h2{
+    color:#E02C6D;
+}
+/* asside endss */
 
 
 /* footer start */
@@ -197,18 +212,15 @@ footer{
         width: 100%;
         padding-left:0;
     }
-
-    menu{
-       
-        grid-template-columns: repeat(1,1fr);
-        
-
+    .popular{
+        margin-right:150px;
     }
+
     .all-collection{
         grid-template-columns: repeat(1,1fr);
         height:100%;
         width:100%;
-        align-items: center;
+        
         
         
 
@@ -218,6 +230,36 @@ footer{
 
 
    
+  }
+
+
+
+  /* tablet devices */
+
+  @media only screen and (min-width: 688px) and (max-width:990px){
+    .nav-bar{
+        width: 100%;
+        height:250px;
+        
+        
+        
+        padding-left:80px;
+    }
+   
+
+    .all-collection{
+        grid-template-columns: repeat(2,1fr);
+        height:100%;
+        width:100%;
+        
+        
+        
+
+    }
+
+
+
+
   }
 
 
