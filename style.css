@@ -139,14 +139,18 @@ height: 475px;
 /* aside startss */
 
 .products{
+    /* height: 500px;
     padding-left: 150px;
     padding-bottom: 50px;
+     */
+    
+        padding-left: 45px;
+        padding-bottom: 50px;
+
 }
 
 
-.products img{
-    font-size: 400px;
-}
+
 .products h2{
     color:#E02C6D;
 }
@@ -226,6 +230,12 @@ footer{
 
     }
 
+
+    .products{
+    
+        padding-left: 45px;
+        padding-bottom: 50px;
+    }
    
 
 
@@ -258,7 +268,12 @@ footer{
     }
 
 
-
+    .products{
+    
+        padding-left: 45px;
+        padding-bottom: 50px;
+    }
+   
 
   }
 
