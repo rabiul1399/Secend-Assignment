@@ -174,13 +174,51 @@ footer{
     font-size: 20px;
 }
 
-
+ .more{
+     color:#E02C6D;
+     text-align:right;
+     padding-right:155px;
+     padding-bottom:20px;
+   
+ }
 
 /* Mobile device */
+@media only screen and (max-width: 700px) {
 
-/* @media only screen and (max-width:600px;) {
-    .continer{
+    body{
         width:100%;
-        grid-template-columns:repeat(1,1fr);
     }
-} */
+  
+    .nav {
+        flex-direction: column;
+     
+    }
+    .nav-bar{
+        width: 100%;
+        padding-left:0;
+    }
+
+    menu{
+       
+        grid-template-columns: repeat(1,1fr);
+        
+
+    }
+    .all-collection{
+        grid-template-columns: repeat(1,1fr);
+        height:100%;
+        width:100%;
+        align-items: center;
+        
+        
+
+    }
+
+   
+
+
+   
+  }
+
+
+
